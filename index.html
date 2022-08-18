@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>👋 Welcome class of 2026</title>
+  <meta name="author" content="name" />
+  <meta name="description" content="description here" />
+  <meta name="keywords" content="keywords,here" />
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <!--Replace with your tailwind.css once created-->
+</head>
+
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+  <nav class="fixed w-full z-30 top-0 backdrop-filter backdrop-blur-lg border-b border-gray-300">
+    <div class="max-w-7xl mx-auto px-1">
+      <div class="flex justify-between">
+
+        <div class="flex space-x-2">
+          <!-- logo -->
+          <div class="hidden md:flex items-center space-x-1">
+            <img class="w-1/3 py-4 
+                        " src="Media/nav.png" alt="WarpStack" />
+          </div>
+
+          <!-- primary nav -->
+          <div class="hidden md:flex items-center space-x-1">
+            <a href="https://codechefmuj.com/"
+              class="font-semibold py-5 px-3 text-gray-700 text-lg hover:text-gray-900 transform hover:transition duration-500 hover:scale-105">Home</a>
+          </div>
+        </div>
+
+        <!-- secondary nav -->
+        <div class="hidden md:flex items-center space-x-1">
+          <a href="https://www.codechefmuj.com/ucnt"
+            class="font-semibold py-5 px-3 text-gray-700 hover:text-gray-900 text-lg hover:text-gray-900 transform hover:transition duration-500 hover:scale-105">Connect</a>
+          <a href="https://forms.gle/DwMYackQGABYx8Dz6"
+            class="font-medium bg-blue-600 text-lg hover:bg-blue-700 text-white rounded transition duration-300 py-2 px-2">Contribute</a>
+        </div>
+
+        <!-- mobile button goes here -->
+        <div class="md:hidden flex items-center">
+          <div class="flex sm:w-1/2 mx-auto pt-2 flex-col justify-center items-center ">
+            <img class="w-1/2 py-3 
+                        " src="Media/nav.png" alt="WarpStack" />
+          </div>
+          <button class="mobile-menu-button">
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- mobile menu -->
+    <div class="mobile-menu hidden md:hidden">
+      <a href="https://www.codechefmuj.com/" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
+      <a href="https://www.codechefmuj.com/ucnt" class="block py-2 px-4 text-sm hover:bg-gray-200">Connect</a>
+      <a href="https://forms.gle/DwMYackQGABYx8Dz6" class="block py-2 px-4 text-sm hover:bg-gray-200">Contribute</a>
+    </div>
+    <script>
+      // grab everything we need
+      const btn = document.querySelector("button.mobile-menu-button");
+      const menu = document.querySelector(".mobile-menu");
+      // add event listeners
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </nav>
+
+  <!--Container-->
+  <div class="container w-full md:max-w-3xl mx-auto pt-20">
+
+		<div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+    <div class="pt-10">
+        <img class="w-full rounded-2xl" src="Media/st.gif" />
+      </div>
+			<!--Title-->
+			<div class="font-sans">
+						<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Hi👋 there freshers (Class of 2026)</h1>
+						<p class="text-sm md:text-base font-normal text-gray-600">Published 10 August 2022</p>
+			</div>
+
+
+			<!--Post Content-->
+
+
+			<!--Lead Para-->
+			<p class="py-6 font-semibold text-justify">
+				 👋Hi there  <a class="text-blue-700 no-underline hover:underline"> freshers,</a> Welcome to Manipal University Jaipur! We hope you're having a great time and we can understand how excited you are to come to college and explore what it's like to be at Manipal University. We know that each day is filled with anticipation of what college life will be like, how the curriculum will be, etc.  
+			</p>
+
+			<p class="py-2 font-semibold text-justify">In the meantime, MUJ Central presents a power-packed list of resources that you will need to succeed in your first year.</p>
+
+      <div class="font-sans pt-6">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">📃Contents</p>
+			</div>
+     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+       <div class="col-span-6">
+      <p class="py-2"><a class="font-semibold text-blue-700" href="#things">&nbsp;&nbsp;&nbsp;⚠️Things to carry at MUJ</a></p>   
+			<p class="py-2"><a class="font-semibold text-blue-700" href="#acad">&nbsp;&nbsp;&nbsp;🚀Academia</a></p>
+			<p class="py-2"><a class="font-semibold text-blue-700" href="#hostf">&nbsp;&nbsp;&nbsp;🍜Hostel Stuff</a></p>
+			<p class="py-2"><a class="font-semibold text-blue-700" href="#socio">&nbsp;&nbsp;&nbsp;😎Social Handles</a></p>
+			<p class="py-2"><a class="font-semibold text-blue-700" href="#course">&nbsp;&nbsp;&nbsp;👉Course Material</a></p>
+			<p class="py-2"><a class="font-semibold text-blue-700" href="#impcon">&nbsp;&nbsp;&nbsp;📃Important Contacts</a></p>
+			<p class="py-2"><a class="font-semibold text-blue-700" href="#bonus">&nbsp;&nbsp;&nbsp;👉Bonus Resources</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="#persona">&nbsp;&nbsp;&nbsp;🎙️List of Amazing Podcast</a></p>
+       </div>
+       <div class="col-span-6">
+         <img class="w-full rounded-xl" src="Media/yes.gif" />
+       </div>
+     </div>
+      <div class="font-sans pt-6" id="things">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">⚠️Things to carry before you arrive at MUJ</p>
+			</div>
+			<p class="py-6 font-semibold text-justify">We know that each day is filled with anticipation of what college life will be like, how the curriculum will be, etc.😁 However, before you arrive at hostels, here some important stuff to carry so that you won't face any issue while moving into the hostels</p>
+      
+      <p class="py-2 font-semibold text-justify">Here's the list of items that you should definitely not forget while moving in:</p>
+       <p class="py-2 font-semibold text-justify">1. 15 days equivalent clothes
+<br>2. Extension cord
+<br>3. Deodorant
+<br>4. Bedsheet(at least 2)
+<br>5. Pillow + Pillow cover
+<br>6. Hand-Wash, Shampoo, Conditioner
+<br>7. Utensils: Not many, just a bowl, spoons/fork, Coffee mug ~ 1 mug (important)
+<br>8. Face towels
+<br>9. Bathing towel
+<br>10. Plate, spoon, bowl
+<br>11. Dusting cloth
+<br>12. Newspaper(lots of them)
+<br>13. Swimming costume
+<br>14. Formal clothes, at least ek pair 
+<br>15. Watch 
+<br>16. First aid kit
+<br>17. Shaving kit
+<br>18. Comforter/ Ac quilts (as some may call)
+<br>19. Two sets of spectacles 
+<br>20. Sports equipments (if you're into any)
+<br>21. Headphones/earphones
+<br>22. Passport sized photos
+<br>23. Important docs(hard as well as soft copies)
+<br>24. Water bottle
+<br>25. Laptop (for engineering, specially CSE,IT,CCE)
+<br>26.Do get your <a class="text-red-500">Paytm KYC done</a>. MUJ has a cashless atmosphere, Paytm is most widely used here, as change problems arise in denominations. Hope it helps. If anything else comes up, it will be updated.
+<br>27. Medicines (some are needed, but later you can buy directly @MUJ)
+<a class="text-blue-900">
+<br>&nbsp;&nbsp⦿ Eyedrops
+<br>&nbsp;&nbsp⦿ Paracetamol
+<br>&nbsp;&nbsp⦿ Band-aids
+<br>&nbsp;&nbsp⦿ Digene/pudin hara
+<br>&nbsp;&nbsp⦿ Metrogyl
+<br>&nbsp;&nbsp⦿ Disprin
+<br>&nbsp;&nbsp⦿ Volini (sprain meds)
+<br>&nbsp;&nbsp⦿ Headache Balm
+<br>&nbsp;&nbsp⦿ Earbuds/toothpick
+<br>&nbsp;&nbsp⦿ Honitus
+<br>&nbsp;&nbsp⦿ Listerine (Optional)
+</a>
+<br>28. Suggested Clothes to carry
+<a class="text-blue-900">
+<br>&nbsp;&nbsp⦿ Belt
+<br>&nbsp;&nbsp⦿ Tie
+<br>&nbsp;&nbsp⦿ Shirt
+<br>&nbsp;&nbsp⦿ Suit
+<br>&nbsp;&nbsp⦿ Pant
+<br>&nbsp;&nbsp⦿ T-Shirt
+<br>&nbsp;&nbsp⦿ Jeans
+<br>&nbsp;&nbsp⦿ Night-suit
+<br>&nbsp;&nbsp⦿ PJs/shorts
+<br>&nbsp;&nbsp⦿ Cap
+<br>&nbsp;&nbsp⦿ Wristwatch
+<br>&nbsp;&nbsp⦿ Umbrella
+<br>&nbsp;&nbsp⦿ Shoe Polish
+<br>&nbsp;&nbsp⦿ Shoe Brush
+<br>&nbsp;&nbsp⦿ Shoe Shine
+</a></p>
+      
+      <div class="font-sans pt-6" id="acad">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">✍️Academia</p>
+			</div>
+			<p class="py-6 font-semibold text-justify">We have compiled this list of First year syllabus and resources. We have also added links to access the resources. Please note that only resources which we feel are necessary are listed here.</p>
+
+      <p class="py-2 font-semibold text-justify">The below mentioned resources have been referred by almost all your seniors including us and has been tested saviors in the respective subjects.</p>
+
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://drive.google.com/drive/u/0/folders/1PX9PH08M-CKPy5dcSVU7mxPI7tY9ckmg">&nbsp;&nbsp;&nbsp;👉B.Tech 1st Year</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://drive.google.com/drive/u/0/folders/1RfjNN5p9huSkSIs_rfocZEcFbCqgutyC">&nbsp;&nbsp;&nbsp;👉Psychology E-Books</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://docs.google.com/document/d/1hh0WJZ7DKAG-gcmz89_bWlLnNHhd-RC1IYX6sOP3-tI/edit">&nbsp;&nbsp;&nbsp;👉Udemy Resources</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://drive.google.com/drive/folders/1khWjYtanNbmNuYkYxHW7QQ4iBRWG7Tj0">&nbsp;&nbsp;&nbsp;👉GRE & TOEFL Resources</a></p>
+
+      <div class="font-sans pt-6" id="hostf">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">✍️Hostel Cafe & Mess Menus</p>
+			</div>
+			<p class="py-6 font-semibold text-justify">MUJ Hostels have a variety of eateries and food stands to sate your appetite 🍕😚.</p>
+      
+      <p class="py-2 font-semibold text-justify">The below mentioned link help you access the menus of all MUJ eateries and food stands.</p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://drive.google.com/drive/u/0/folders/1-8-u-feBQf_dEyV8CFGxF4ssq5rJK2E0">&nbsp;&nbsp;&nbsp;👉Access from here</a></p>
+
+<div class="font-sans pt-6" id="socio">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">😎Social Media Handles you should follow to keep yourself updated!</p>
+			</div>
+			<p class="py-6 font-semibold text-justify">Discover what's going on around you by following the social media handles listed below to live the MUJ life to the fullest 😍.</p>
+      <p class="py-2 font-semibold">🚀Discord Servers</p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://discord.com/invite/wr7vqkTcPE">&nbsp;&nbsp;&nbsp;👉MUJ Community Server </a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://discord.gg/d8cvwKyuJd">&nbsp;&nbsp;&nbsp;👉CodeChef MUJ's Server </a></p>
+      <p class="py-2 font-semibold ">🚀Instagram Handles</p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://www.instagram.com/jaipurmanipal/">&nbsp;&nbsp;&nbsp;👉MUJ Official</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://www.instagram.com/muj.confess/">&nbsp;&nbsp;&nbsp;👉MUJ Confess</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://www.instagram.com/muj.fresher2022/">&nbsp;&nbsp;&nbsp;👉MUJ Freshers 22-23</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://www.instagram.com/codechefmuj/">&nbsp;&nbsp;&nbsp;👉CodeChef MUJ SC</a></p>
+      <p class="py-2 font-semibold ">🚀WhatsApp Groups</p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/IVzFIOd4sV30atydWnivfs">&nbsp;&nbsp;&nbsp;👉MUJ B.Tech 22-26</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/HWIZD6W7JOs8opP6IRvt3S">&nbsp;&nbsp;&nbsp;👉MUJ Freshers</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/IVUXsJIty2o4XOcAt33yNV">&nbsp;&nbsp;&nbsp;👉Catalyst by Codechef MUJ</a></p>
+      <p class="py-2 font-semibold ">🚀Branch-Wise WhatsApp Groups</p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/HWIZD6W7JOs8opP6IRvt3S">&nbsp;&nbsp;&nbsp;👉CSE(Core) MUJ'26</a></p>
+       <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/GmNcQDm9dN535iMH7bgO3S">&nbsp;&nbsp;&nbsp;👉IT MUJ'26</a></p>
+       <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/C6yHZ8KGCUiE1CE98koUbp">&nbsp;&nbsp;&nbsp;👉IOT MUJ'26</a></p>
+       <p class="py-2"><a class="font-semibold text-blue-700" href="https://chat.whatsapp.com/BAX2kjLhTAA0ejqrRxW7lg">&nbsp;&nbsp;&nbsp;👉AI/ML MUJ'26</a></p>
+      <p class="py-2 font-semibold ">🚀Section WhatsApp Groups</p>
+      <p class="py-2"><a class="font-semibold text-blue-700">&nbsp;&nbsp;&nbsp;🕛Coming Soon</a></p>
+
+<div class="font-sans pt-6" id="course">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">📚Course Material</p>
+			</div>
+			<p class="py-6 font-semibold text-justify text-blue-700">Coming Soon!</p>
+      
+      <div class="font-sans pt-6" id="impcon">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">📃Contact List of Faculties</p>
+			</div>
+			<p class="py-6 font-semibold text-justify">Do you have questions 🤷‍♂️ about the course curriculum or require immediate assistance and want to contact the faculty or college administration?.</p>
+      
+      <p class="py-2 font-semibold text-justify">We've got you covered 😀. The links provided below will assist you contacting the faculties.</p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://jaipur.manipal.edu/muj/about-us/administration.html">&nbsp;&nbsp;&nbsp;👉College Administration</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list.html">&nbsp;&nbsp;&nbsp;👉Faculty of Engineering</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://jaipur.manipal.edu/fos/schools-faculty/faculty-list.html">&nbsp;&nbsp;&nbsp;👉Faculty of Science</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://jaipur.manipal.edu/foa/schools-faculty/faculty-list.html">&nbsp;&nbsp;&nbsp;👉Faculty of Arts & Law</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://jaipur.manipal.edu/foe/schools-faculty/faculty-list.html">&nbsp;&nbsp;&nbsp;👉Faculty of Engineering</a></p>
+      <p class="py-2"><a class="font-semibold text-blue-700" href="https://jaipur.manipal.edu/fom/schools-faculty/faculty-list.html">&nbsp;&nbsp;&nbsp;👉Faculty of Management and Commerce</a></p>
+
+
+      <div class="font-sans pt-6" id="persona">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">🎙️Amazing Podcast to Motivate and Inspire You</p>
+			</div>
+			<p class="py-8 font-semibold text-justify">There are a tonne of incredible 🧠 inspiring and motivational podcasts available, but here we have selected the most well-liked ones that you will undoubtedly fall in love 😍 with.</p>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div class="col-span-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/6ZcvVBPQ2ToLXEWVbaw59P?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="col-span-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4JIZGy84xwbv0Ui883u2Mr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+      </div>
+      <div class="pt-5 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div class="col-span-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4i0wMV8RkLFo60fUxkhzwN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="col-span-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4rOoJ6Egrf8K2IrywzwOMk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+      </div>
+
+       <div class="font-sans pt-6" id="bonus">
+						<p class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">🎙️Bonus Resources</p>
+			</div>
+			<p class="py-6 font-semibold text-justify text-blue-700">Coming Soon!</p>
+      
+			<!--<blockquote class="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12">Example of blockquote - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</blockquote>
+
+			<p class="py-6">Example code block:</p>
+			<pre class="bg-gray-900 rounded text-white font-mono text-base p-2 md:p-4">
+				<code class="break-words whitespace-pre-wrap">
+&lt;header class="site-header outer"&gt;
+&lt;div class="inner"&gt;
+{{&gt; "site-nav"}}
+&lt;/div&gt;
+&lt;/header&gt;
+				</code>
+			</pre>
+
+-->
+			<!--/ Post Content-->
+
+		</div>
+
+		<!--Divider-->
+		<hr class="border-b-2 border-gray-400 mb-8 mx-4">
+
+
+		<!--Subscribe-->
+		<div class="container px-4">
+			<div class="font-sans bg-gradient-to-b from-blue-100 to-white-100 rounded-lg shadow-xl p-4 text-center">
+				<h2 class="font-bold break-normal text-xl md:text-3xl">Subscribe to our Newsletter</h2>
+				<h3 class="font-bold break-normal text-gray-600 text-sm md:text-base">Get the latest posts delivered right to your inbox</h3>
+				<div class="w-full text-center pt-4">
+					<form action="#">
+						<div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+							<button type="submit" class="flex-1 mt-4 block md:inline-block appearance-none bg-blue-700 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-blue-400">Subscribe</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- /Subscribe-->
+
+
+
+		<!--Author-->
+		<div class="flex w-full items-center font-sans px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div class="col-span-4 grid justify-items-start md:justify-items-center">
+          <img class="w-20 h-20 rounded-full mr-4" src="Media/team.jpeg" alt="Avatar of Author">
+			<div class="">
+				<p class="text-base font-bold text-base md:text-xl leading-none mb-2">Authors & Contributers</p>
+			</div>
+        </div>
+        <div class="col-span-4">
+				<p class="font-semibold text-gray-600 text-xs md:text-base">🌱 Sameer Chauhan</p>
+        <p class="font-semibold text-gray-600 text-xs md:text-base">🌱 Vivan Jaiswal</p>
+        <p class="font-semibold text-gray-600 text-xs md:text-base">🌱 Devansh Beri</p>
+        <p class="font-semibold text-gray-600 text-xs md:text-base">🌱 Gourav Jangid</p>
+			</div>
+			<div class="justify-end col-span-4">
+        <p class="font-semibold text-gray-600 text-xs md:text-base">🌱 Have somthing to share or contribute? Contribute Now! 👇</p>
+				<button class="bg-transparent border border-gray-500 hover:border-blue-800 text-xs text-gray-500 hover:text-blue-800 font-bold py-2 px-4 rounded-full">Contribute</button>
+			</div>
+      </div>
+		</div>
+		<!--/Author-->
+	</div>
+	<!--/container-->
+
+	<!--<footer class="bg-white border-t border-gray-400 shadow">
+		<div class="container max-w-4xl mx-auto flex py-8">
+
+			<div class="w-full mx-auto flex flex-wrap">
+				<div class="flex w-full md:w-1/2 ">
+					<div class="px-8">
+						<h3 class="font-bold text-gray-900">About</h3>
+						<p class="py-4 text-gray-600 text-sm">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
+						</p>
+					</div>
+				</div>
+
+				<div class="flex w-full md:w-1/2">
+					<div class="px-8">
+						<h3 class="font-bold text-gray-900">Social</h3>
+						<ul class="list-reset items-center text-sm pt-3">
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+</footer>-->
+ <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+    <span class="text-sm font-semibold text-justify text-gray-700 sm:text-center">© 2022 <a class="hover:underline">MUJ Central™</a>. MUJ Central is an open source website designed as a collection of resources for student community. Developers of this website are not responsible for any harm or damaged caused in any way. All material/resources on this website belong to their respective owners. <br><br>Website created with ❤️ by <a class="hover:underline" href="https://www.linkedin.com/in/cbsameer/">Sameer Chauhan</a>
+    </span>
+</footer>
+	<script>
+		/* Progress bar */
+		//Source: https://alligator.io/js/progress-bar-javascript-css-variables/
+		var h = document.documentElement,
+			b = document.body,
+			st = 'scrollTop',
+			sh = 'scrollHeight',
+			progress = document.querySelector('#progress'),
+			scroll;
+		var scrollpos = window.scrollY;
+		var header = document.getElementById("header");
+		var navcontent = document.getElementById("nav-content");
+
+		document.addEventListener('scroll', function() {
+
+			/*Refresh scroll % width*/
+			scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+			progress.style.setProperty('--scroll', scroll + '%');
+
+			/*Apply classes for slide in bar*/
+			scrollpos = window.scrollY;
+
+			if (scrollpos > 10) {
+				header.classList.add("bg-white");
+				header.classList.add("shadow");
+				navcontent.classList.remove("bg-gray-100");
+				navcontent.classList.add("bg-white");
+			} else {
+				header.classList.remove("bg-white");
+				header.classList.remove("shadow");
+				navcontent.classList.remove("bg-white");
+				navcontent.classList.add("bg-gray-100");
+
+			}
+
+		});
+
+
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function() {
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
+
+</body>
+
+</html>
