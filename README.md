@@ -1,7 +1,7 @@
 
 # MUJ CENTRAL
 
-- A simple HTML, CSS, and JavaScript that offers complete help to MUJ Freshers to help them begin with First Year Curriculum 
+- A simple website built on HTML, CSS (Tailwind CSS), and JavaScript that offers complete help to MUJ Freshers to help them begin with First Year Curriculum 
 - Past year exam papers, course material, free e-books, handwritten notes, hostel life tips & tricks.
 - Support Us by contributing notes, lectures or e-books. Visit @ [I wanna contribute](https://mujcentral.live).
 - Seperate section comprising of a comprehensively prepared list of Internship and Campus Ambassador Opportunities : [Visit](https://mujcentral.live)
