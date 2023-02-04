@@ -29,7 +29,18 @@
   transform-origin: bottom left;
 }
 
+.border-type{
+  border: 3px solid;
+  border-radius: 5px;
+  border-color: #F6731A;
+  border-style:dashed;
+}
 
+.border-type-full{
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #F6731A;
+  }
 /*font*/
 body {
     font-family: 'Poppins', sans-serif;
@@ -40,6 +51,12 @@ body {
 }
 .text-yellow-500 {
     color: #F48C06;
+}
+.bg-orange-500 {
+    background-color: #ECE8D8;
+}
+.text-orange-500 {
+    color: #F6731A;
 }
 .floating { 
     animation-name: floating; 
