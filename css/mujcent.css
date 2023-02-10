@@ -37,10 +37,15 @@
 }
 
 .border-type-full{
-    border: 3px solid;
-    border-radius: 5px;
-    border-color: #F6731A;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: rgb(47,50,125);
+  border-style:solid;
   }
+
+.border-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 /*font*/
 body {
     font-family: 'Poppins', sans-serif;
