@@ -40,12 +40,9 @@
   border: 2px solid;
   border-radius: 15px;
   border-color: rgb(47,50,125);
-  border-style:solid;
+  border-style:dashed;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-
-.border-shadow{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
 /*font*/
 body {
     font-family: 'Poppins', sans-serif;
