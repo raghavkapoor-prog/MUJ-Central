@@ -65,6 +65,13 @@
     border-style: solid;
 }
 
+.border-type-pyq {
+    border: 3px solid;
+    border-radius: 18px;
+    border-color: #F6731A;
+    border-style: solid;
+}
+
 /*font*/
 body {
     font-family: 'Poppins', sans-serif;
@@ -89,6 +96,10 @@ body {
 
 .bg-orange-500 {
     background-color: #ECE8D8;
+}
+
+.bg-tree-500 {
+    background-color: #FF4A3B;
 }
 
 .text-orange-500 {
@@ -139,4 +150,8 @@ body {
 
 .text-darken {
     color: #2F327D;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
