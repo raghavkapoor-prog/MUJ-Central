@@ -18,7 +18,6 @@ MUJ Central is developed by a team of MUJ students who joined this project to ma
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
