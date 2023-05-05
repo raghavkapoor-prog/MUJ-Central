@@ -54,7 +54,7 @@
     border: 2px solid;
     border-radius: 15px;
     border-color: rgb(47, 50, 125);
-    border-style: dashed;
+    border-style: solid;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
