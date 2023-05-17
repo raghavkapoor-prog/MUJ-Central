@@ -38,6 +38,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2478422969975314" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 </head>
 
 <body class="antialiased">
@@ -108,10 +114,73 @@
 
 
   <!--Container-->
-  <div class="md:mt-16 mt-4 relative container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden">
-  
+  <div class="md:mt-0 mt-4 relative container px-4 lg:px-8 mx-auto max-w-screen-xl text-gray-700 overflow-x-hidden">
+    <div data-aos="flip-down" class="mx-auto max-w-screen-md sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div class="md:p-3 p-2 border-type-lofi"
+        style="background-image: url('LofiPlayer/assets/images/newbg1.jpg'); border-radius: 15px;">
+        <div class="flex flex-col md:flex-row items-center">
+          <div data-aos="flip-down" class="md:text-center md:pt-0 pt-5 text-center mb-6 lg:mb-0 lg:w-9/12 lg:pr-5">
+            <h1 id="lofiplay" class="text-white font-bold" style="font-family: 'Allura', cursive; color: white; font-weight: bold;">
+              <style>
+                @media only screen and (max-width: 767px) {
+                  #lofiplay {
+                    font-size: 40px;
+                  }
+                  #lofibox {
+                    height: 145pt;
+                    width: 100%;
+                    max-width: 290pt;
+                  }
+                }
+            
+                @media only screen and (min-width: 768px) {
+                  #lofiplay {
+                    display:none;
+                  }
+                  #lofibox {
+                    height: 120pt;
+                    width: 100%;
+                    max-width: 240pt;
+                  }
+                }
+              </style>
+              Lofi Radio
+            </h1>
+            <h1 class="hidden sm:block text-white font-semibold" style="font-family: 'Zeyada', cursive; font-size:40px; letter-spacing: 2px; color: white;">"Let the tranquil tunes of Lofi Study Music accompany you"</h1>            
+          </div>
+          <div class="lg:w-3/12 w-full" data-aos="flip-down">
+            <div id="lofibox" style="position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000000;
+        border: 0.5px solid rgba(251, 141, 225, 0.394);
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000000;">
+              <div class="box"></div>
+              <img src="LofiPlayer/assets/images/lofi.png" id="thumbnail" />
+              <img src="LofiPlayer/assets/icons/play.png" onclick="playPause()" id="play-pause" />
+              <div class="song-artist flex items-center">
+                Lofi Girl
+                <img src="LofiPlayer/assets/images/live.png" style="height: 40px; padding-bottom: 10px;" class="ml-2 animate-pulse">
+              </div>
+              
+              <div class="song-title">Soothing Study Music</div>
+            </div>
+            <div id="player"></div>
+            <script src="LofiPlayer/player.js"></script>
+            <script src="LofiPlayer/music.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- CARD SECTION -->
-    <div class="max-w-xl mx-auto text-center">
+    <div class="max-w-xl pt-16 mx-auto text-center">
       <h1 class="font-bold text-darken my-3 text-3xl" id="explore">Physics&nbsp<span
           class="hover-underline-animation text-yellow-500">Cycle</span></h1>
       <p class="leading-relaxed text-gray-500 font-semibold">Download past year papers (MTEs and ETEs), PPTs, and books
@@ -131,16 +200,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/145O8M1yk94VFnOCQUK5jScByqmF9Fm5R?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/145O8M1yk94VFnOCQUK5jScByqmF9Fm5R?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1qcvHP3VO4FpFCZOaZmb-NsOm4KIrCO0F?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1qcvHP3VO4FpFCZOaZmb-NsOm4KIrCO0F?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1VCdxoekledEsY0heg0FKj0TKrTPB39hL?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1VCdxoekledEsY0heg0FKj0TKrTPB39hL?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/13oDdMqAmVxixyN6jepRrIvTL_iTBeI7L?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/13oDdMqAmVxixyN6jepRrIvTL_iTBeI7L?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -159,16 +228,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1OagdAV8QpEvpu6G_OtRl6sQ-Qvp4u2xT?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1OagdAV8QpEvpu6G_OtRl6sQ-Qvp4u2xT?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1JeJcLIgKxSxnWEenjrzTTMwoXe7rRM_W?usp=share_link">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1JeJcLIgKxSxnWEenjrzTTMwoXe7rRM_W?usp=share_link" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1ffO_zJ5Xe4eggn-eLKE0TyVsYXGDFRSk?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1ffO_zJ5Xe4eggn-eLKE0TyVsYXGDFRSk?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/13oy7u0DhJO-gXZazR10ArvNrsgyqb9ht?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/13oy7u0DhJO-gXZazR10ArvNrsgyqb9ht?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -187,16 +256,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1rir3gfSh7IUO1HoN95tQI9NqmyZe5lk_?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1rir3gfSh7IUO1HoN95tQI9NqmyZe5lk_?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1T8nWoOTN2m7OaQGniM5SgHo4O3TfA6-v?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1T8nWoOTN2m7OaQGniM5SgHo4O3TfA6-v?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1o4pAhdNWFgRtNic-zurFK-9heCELkxHX?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1o4pAhdNWFgRtNic-zurFK-9heCELkxHX?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1jlIB01zf6fWr84W-K4-AMUUpXcJKCitQ?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1jlIB01zf6fWr84W-K4-AMUUpXcJKCitQ?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -217,16 +286,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1fGuPHqxG-U4La4hVYJnrRhPoBgBHj_KZ?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1fGuPHqxG-U4La4hVYJnrRhPoBgBHj_KZ?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1S_qWsCTNwiPJhyutWgJJElFfupub5fIV?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1S_qWsCTNwiPJhyutWgJJElFfupub5fIV?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1tIVaZkZidggomi1XGYJhD_bosLaQi4jS?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1tIVaZkZidggomi1XGYJhD_bosLaQi4jS?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1yS7u1_tI8zsPonjF4xnwPmDzCR_zi_uE?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1yS7u1_tI8zsPonjF4xnwPmDzCR_zi_uE?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -245,16 +314,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1vk9XEgz-cjkAjPqDCNGKCDBaGkDEdWp1?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1vk9XEgz-cjkAjPqDCNGKCDBaGkDEdWp1?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1E9hKQk9uXtaOjJKfC2NjRnwmtb-Zg3G7?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1E9hKQk9uXtaOjJKfC2NjRnwmtb-Zg3G7?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1JJ9OyATSxFemAQpU-t6tu4GcU0ZitaB_?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1JJ9OyATSxFemAQpU-t6tu4GcU0ZitaB_?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1FtB2azMlP6D5CniHt_6_mjicSOE2zxKG?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1FtB2azMlP6D5CniHt_6_mjicSOE2zxKG?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -266,7 +335,7 @@
           <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <h1 class="uppercase text-white font-bold text-center text-xl lg:text-xl mb-3">ENG. DRAWING</h1>
             <div class="md:z-0 -z-10">
-              <a href="https://drive.google.com/drive/folders/1F_gzYQGsTncN0AegbsDftLE5kpXDkCAe?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1F_gzYQGsTncN0AegbsDftLE5kpXDkCAe?usp=sharing" target="_blank">
                 <button
                   class="rounded-full text-white border text-xs lg:text-md px-6 py-3 w-full font-bold focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out"
                   style="background:rgb(255,74,59)">Download Now!</button></a>
@@ -278,10 +347,6 @@
 
     <div class="md:mt-32 mt-16">
     </div>
-
-
-
-
   </div>
 
 
@@ -307,16 +372,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1yHSn8iN8vR4NUg0po866U0nDc1ygE9LE?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1yHSn8iN8vR4NUg0po866U0nDc1ygE9LE?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1IUnkdvCgMWvaOKkDWfiyhpEhjjNtUImu?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1IUnkdvCgMWvaOKkDWfiyhpEhjjNtUImu?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/15DW9nsL6jcngDUGXIpJW4ffpw_p1VVSM?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/15DW9nsL6jcngDUGXIpJW4ffpw_p1VVSM?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1wXkvi3x6UHG6V7_vS8e3ub9vS-i_RHoj?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1wXkvi3x6UHG6V7_vS8e3ub9vS-i_RHoj?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -335,16 +400,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/13DnxaTDc8HBP6jbZ8XJAfnRfLIfXaj59?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/13DnxaTDc8HBP6jbZ8XJAfnRfLIfXaj59?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1dAzvM9UF24VgxZFR8Srb7vBHVZ6GuROD?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1dAzvM9UF24VgxZFR8Srb7vBHVZ6GuROD?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1TzFQ06q6G1y2Wv_ZUlZghOuSfw0NkTHl?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1TzFQ06q6G1y2Wv_ZUlZghOuSfw0NkTHl?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1ELEwxH40kbjTcDyMk6REXZMRk26lAOhP?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1ELEwxH40kbjTcDyMk6REXZMRk26lAOhP?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -363,16 +428,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1g-UqMeN1tyX6yjDWBDeWGFkPJgZBNoPt?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1g-UqMeN1tyX6yjDWBDeWGFkPJgZBNoPt?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1-Ne8PrTF7p_BvB4CXwgaxMh4y84Zr8XE?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1-Ne8PrTF7p_BvB4CXwgaxMh4y84Zr8XE?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1tEhQw86_1mKgqbl1e9Y6XBpo0jQSpWaX?usp=share_link">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1tEhQw86_1mKgqbl1e9Y6XBpo0jQSpWaX?usp=share_link" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1lKqTXrUdHx96oeWuNrZs9bJ4qJ8KijEw?usp=share_link">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1lKqTXrUdHx96oeWuNrZs9bJ4qJ8KijEw?usp=share_link" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -393,16 +458,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1u_U1NtrdxAzO4p5oEEvgtDhmVECYksjY?usp=share_link">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1u_U1NtrdxAzO4p5oEEvgtDhmVECYksjY?usp=share_link" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/17EBlJwEi08qhkIGkGuo9It5xbCRd5OTD?usp=share_link">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/17EBlJwEi08qhkIGkGuo9It5xbCRd5OTD?usp=share_link" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1uVm4ADfHOzLBfimPfz-Jb3BSBppnKMfy?usp=share_link">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1uVm4ADfHOzLBfimPfz-Jb3BSBppnKMfy?usp=share_link" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1iyne1CgkAPodLRaSD4KjJrrtIR8v3OYZ?usp=share_link">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1iyne1CgkAPodLRaSD4KjJrrtIR8v3OYZ?usp=share_link" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -421,16 +486,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1T1wyCStQ9Z6pjd0mHUdFD_GEo6y2jTsx?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1T1wyCStQ9Z6pjd0mHUdFD_GEo6y2jTsx?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1ni87jDnWQRIb1qEbB23t-1QnA8UK3Xax?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1ni87jDnWQRIb1qEbB23t-1QnA8UK3Xax?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1AkHapwTyfISThPbYxuur9wwhdbiv_ssJ?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1AkHapwTyfISThPbYxuur9wwhdbiv_ssJ?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1v17vExTwSqeRZrmvdtBJDTgAgeat_nrQ?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1v17vExTwSqeRZrmvdtBJDTgAgeat_nrQ?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -449,16 +514,16 @@
               <ul class="dropdown-menu absolute hidden text-darken pt-1">
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-t block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1gEdZ0mxf-B_TreN8lL6dIxuogqBbS78w?usp=sharing">MTE I</a></li>
+                    href="https://drive.google.com/drive/folders/1gEdZ0mxf-B_TreN8lL6dIxuogqBbS78w?usp=sharing" target="_blank">MTE I</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1d0mxRySunZJaGWrqSxQB0KujDOcRLTfl?usp=sharing">MTE II</a></li>
+                    href="https://drive.google.com/drive/folders/1d0mxRySunZJaGWrqSxQB0KujDOcRLTfl?usp=sharing" target="_blank">MTE II</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1jurWCliMkvY9xBEJYP34a4rG4m6jVmnP?usp=sharing">ETE</a></li>
+                    href="https://drive.google.com/drive/folders/1jurWCliMkvY9xBEJYP34a4rG4m6jVmnP?usp=sharing" target="_blank">ETE</a></li>
                 <li class=""><a
                     class="bg-tree-500 text-white font-semibold py-2 px-4 focus:outline-2 rounded-b block whitespace-no-wrap hover:bg-white hover:text-gray-800"
-                    href="https://drive.google.com/drive/folders/1xKgXgxapfHQTBDN5VeRCaJNo0jfROUFI?usp=sharing">Books & PPT's</a></li>
+                    href="https://drive.google.com/drive/folders/1xKgXgxapfHQTBDN5VeRCaJNo0jfROUFI?usp=sharing" target="_blank">Books & PPT's</a></li>
               </ul>
             </div>
           </div>
@@ -498,5 +563,4 @@
     AOS.init();
   </script>
 </body>
-
 </html>
