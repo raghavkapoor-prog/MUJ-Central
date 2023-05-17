@@ -42,7 +42,42 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2478422969975314"
      crossorigin="anonymous"></script>
 </head>
-
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?21952';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"20",
+      "marginRight":"20",
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"MUJ Central",
+      "brandSubTitle":"Typically replies within an hour",
+      "brandImg":"https://mujcentral.in/img/favicon.png",
+      "welcomeText":"Hello 😄👋! \nWelcome to our chat box. We're here to assist you with any questions, feedback, bug reports, or sharing study material you may have. How can we help you today?",
+      "messageText":"",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"919458400587"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
 <body class="antialiased">
   <!-- navbar -->
   <div x-data="{ open: false }" class="w-full text-gray-700 bg-cream">
