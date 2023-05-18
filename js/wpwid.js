@@ -8,7 +8,7 @@ function CreateWhatsappChatWidget(option = {
         brandName: "WATI",
         brandSubTitle: "Typically replies within a day",
         ctaText: "Start Chat",
-        welcomeText: "Hey there! 🌟\n👋 Welcome to our Chat Box! Thanks for dropping by! \n\n📣 Do you have feedback to share? We'd love to hear your thoughts! 🗣️ \n🐛 Found a bug? Oh no! 🐞 Don't worry, our team of tech wizards is ready to squash it ASAP! 🧙‍♂️\n📚 Have some study material to share? That's fantastic! 📖📝 Feel free to upload your study materials, and let's empower each other!\n\nRemember, we're just a message away, ready to assist you with anything you need. 🙌✨",
+        welcomeText: "Hey there! 🌟\n👋 Welcome to our Chat Box! \n\n📣 Do you have feedback to share? We'd love to hear your thoughts!🗣️\n📚 Have some study material to share? That's fantastic! 📖📝 Feel free to upload your study materials, and let's empower each other!\n\nRemember, we're just a message away, ready to assist you! 🙌✨",
         messageText: "",
         phoneNumber: "919458400587"
     },
